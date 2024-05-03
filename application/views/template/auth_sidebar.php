@@ -14,7 +14,7 @@
         <p class="form-label">Password</p>
         <input class="form-input" type="password" placeholder="Enter your password" required>
       </label>
-      <a class="link-info forget-link" href="##">Buat Akun</a>
+      <a class="link-info forget-link" href="<?php echo base_url('auth/registrasi') ?>">Buat Akun</a>
       <label class="form-checkbox-wrapper">
         <input class="form-checkbox" type="checkbox" required>
         <span class="form-checkbox-label">Remember me next time</span>
