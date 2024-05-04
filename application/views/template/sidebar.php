@@ -24,7 +24,12 @@
         <div class="sidebar-body">
             <ul class="sidebar-body-menu">
                 <li>
-                    <a class="active" href="/"><span class="icon home" aria-hidden="true"></span>Dashboard</a>
+                    <a class="active" href=""><span class="icon home" aria-hidden="true"></span>Dashboard</a>
+                </li>
+                <li>
+                <ul class="sidebar-body-menu">
+                <li>
+                    <a href="<?php echo base_url('Dashboard/daftar')?>"><span class="icon document" aria-hidden="true"></span>Pendaftaran</a>
                 </li>
                 <li>
                     <a class="show-cat-btn" href="##">
@@ -261,7 +266,7 @@
     <!-- ! Main -->
     <main class="main users chart-page" id="skip-target">
       <div class="container">
-        <h2 class="main-title">Dashboard</h2>
+      
         
           
           

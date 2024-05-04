@@ -8,7 +8,7 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
-@import url(../fonts/stylesheet.css);
+@import url(assets/template/../fonts/stylesheet.css);
 
 html {
   line-height: 1.15;
@@ -23,6 +23,9 @@ html {
 /**
  * Remove the margin in all browsers.
  */
+ :root {
+  --primary:#4e73df;
+ }
 
 body {
   margin: 0;

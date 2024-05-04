@@ -14,7 +14,12 @@
 </footer>
   </div>
 </div>
+ <!-- Bootstrap core JavaScript-->
+ <script src="<?= base_url()?>assets/template/vendor/jquery/jquery.min.js"></script>
+    <script src="<?= base_url()?>assets/template/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
 <!-- Chart library -->
+
 <script src="<?php echo base_url() ?>assets/template/./plugins/chart.min.js"></script>
 <!-- Icons library -->
 <script src="<?php echo base_url() ?>assets/template/plugins/feather.min.js"></script>
